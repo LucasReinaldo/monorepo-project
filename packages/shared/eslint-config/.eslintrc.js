@@ -6,38 +6,39 @@ module.exports = {
     jest: true
   },
   extends: [
-    "airbnb",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
-    "plugin:react/recommended",
-    "prettier/@typescript-eslint"
+    'airbnb',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:prettier/recommended',
+    'plugin:react/recommended',
+    'prettier/@typescript-eslint'
   ],
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
       jsx: true
     },
     ecmaVersion: 12,
-    sourceType: "module"
+    sourceType: 'module'
   },
-  plugins: ["react", "react-hooks", "@typescript-eslint", "prettier"],
+  plugins: ['react', 'react-hooks', '@typescript-eslint', 'prettier'],
   rules: {
-    "@typescript-eslint/no-use-before-define": "off",
-    "camelcase": "off",
-    "import/prefer-default-export": "off",
-    "no-use-before-define": "off",
-    "prettier/prettier": "error",
-    "import/extensions": [
-      "error",
-      "ignorePackages",
+    '@typescript-eslint/no-use-before-define': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    'camelcase': 'off',
+    'import/prefer-default-export': 'off',
+    'no-use-before-define': 'off',
+    'prettier/prettier': 'error',
+    'import/extensions': [
+      error,
+      ignorePackages,
       {
-        "ts": "never",
-        "tsx": "never"
+        ts: never,
+        tsx: never
       }
     ]
   },
   settings: {
-    "import/resolver": {
+    'import/resolver': {
       typescript: {}
     }
   }
