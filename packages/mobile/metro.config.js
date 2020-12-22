@@ -4,12 +4,10 @@
  *
  * @format
  */
-const path = require('path')
+const path = require('path');
 module.exports = {
   projectRoot: path.resolve(__dirname, '.'),
-  wathFolders: [
-    path.resolve(__dirname, '../../node_modules'),
-  ],
+  watchFolders: [path.resolve(__dirname, '../../node_modules')],
   transformer: {
     getTransformOptions: async () => ({
       transform: {
