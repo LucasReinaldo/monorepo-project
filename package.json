@@ -8,7 +8,9 @@
   },
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "packages/services/*",
+      "packages/shared/*"
     ]
   },
   "author": "Lucas Reinaldo de Melo <lucasreinaldo.demelo@hotmail.com>",
