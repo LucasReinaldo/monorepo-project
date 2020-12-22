@@ -3,14 +3,14 @@ import React, { useEffect } from 'react'
 
 // import { Container } from './styles';
 
-const App: React.FC = () => {
+const App = () => {
   // useEffect(() => {
   //   api.get('/').then(response => {
   //     console.log(response)
   //   })
   // }, [])
 
-  return <h1>Hello World</h1>
+  return <h1>Hello World!</h1>
 }
 
 export default App
