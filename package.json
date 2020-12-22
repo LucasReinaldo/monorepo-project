@@ -9,12 +9,5 @@
     ]
   },
   "author": "Lucas Reinaldo de Melo <lucasreinaldo.demelo@hotmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
-  },
-  "devDependencies": {
-    "@types/react": "^17.0.0"
-  }
+  "license": "MIT"
 }
